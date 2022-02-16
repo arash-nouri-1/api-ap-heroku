@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://brav.netlify.app'
+        origin: '*'
     })
 );
 app.options('*', cors());
