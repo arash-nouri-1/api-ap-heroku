@@ -5,7 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
-        origin: 'https://cranky-dijkstra-9d6762.netlify.app/'
+        origin: 'https://brave-boyd-6c3c10.netlify.app'
     })
 );
 app.options('*', cors());
